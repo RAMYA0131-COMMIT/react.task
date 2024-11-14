@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800&display=swap');
+
+:root {
+  --primary-dark:#5651e5;
+  --primary-light:#709dff;
+}
+
+@layer base{
+  html{
+    @apply scroll-smooth
+  }
+
+ body{
+    @apply font-[Poppins]
+  }
+  li{
+    @apply p-4 text-sm
+  }
+  button{
+    @apply  px-4 py-2 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white
+  } 
+ h2{
+    @apply text-xl font-bold
+  }
+}   */
+
+
+
+
+
+ header ul li {
+  @apply px-2;
+}
+
+.bg-primary{
+  background: rgb(85 81 227);
+}
+.bg-secondary{
+  background:#024fa1
+}
+
+.mobile-nav{
+  @apply fixed top-10 left-0 bg-gray-800 w-full h-1/4;
+}
+
+.mobile-nav li{
+  @apply w-full h-full text-center border-b-2;
+} 
+
+.project-desktop{
+  @apply absolute left-0 right-0 bottom-0 top-0 bg-primary opacity-0 duration-500 hover:opacity-100
+}
+
+.btn{
+  @apply bg-primary px-5 py-2 font-bold hover:border-2 border-white rounded;
+}
+
+html{
+  scroll-behavior: smooth;
+}
